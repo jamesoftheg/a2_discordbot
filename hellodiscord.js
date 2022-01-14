@@ -40,4 +40,4 @@ client.on('messageCreate', async message => {
 
 // logs in the bot to the channel
 // REQUIRES KEY
-client.login();
+client.login("KEYHERE");
