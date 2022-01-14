@@ -23,7 +23,8 @@ client.on('shardError', error => {
 let yelpAPI = require('yelp-api');
  
 // Create a new yelpAPI object with *your* API key
-let apiKey = 'NvsVR_1dx-5kVZhF7sJZvwlNL5QdDP_gnqDVmw1lkulj9erA4hO7LtCRMCqJml4H5Zt6-twxo8Rtlta2jIgGKFzFxLcDCM_OYcY8BkIHNIVAfUFrIgUF278Em_tlYXYx';
+// REQUIRES API KEY
+let apiKey = 'APIKEYHERE';
 let yelp = new yelpAPI(apiKey);
  
 // Set any parameters, if applicable (see API documentation for allowed params)
@@ -455,4 +456,5 @@ client.on('messageCreate', async message => {
   }
 });
 
-client.login("ODk3NTg0MjU4Mzc2NDIxNDA3.YWXyew.VuKp2a9_a27jp6hre-KUEVr3IaE");
+// REQUIRES KEY
+client.login("KEYHERE");
