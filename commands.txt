@@ -1,0 +1,36 @@
+Returns results from various restaurants based typically off of location.
+Some categories are optional in some cases.
+
+Commands
+
+Test Command - Search by Phone
+phone,phone
+Sample command = "phone,19055260792"
+
+Command 1 - Search by city
+location/city,location
+Sample command = "city,Toronto"
+
+Command 2 - Open now in city
+open,location
+Sample command = "open,Toronto"
+
+Command 3 - Search for delivery, optional category
+delivery,location,categories
+Sample command = "delivery,Toronto,Chinese"
+
+Command 4 - Browse by category
+category,location,categories
+Sample command = "category,Ottawa,bar"
+
+Command 5 - Browse by price and optional category
+price,location,price,categories
+Sample command = "category,Toronto,4,sushi"
+
+Command 6 - Return reviews for a business by phone number
+reviews,phone
+Sample command = "reviews,19055260792"
+
+Command 7 - Search for events
+event,location
+Sample command = "event,London"
