@@ -4,6 +4,7 @@
  * I have not made my work available to anyone else."
  */
 
+
 // Basic example of a Discord bot
 // When running for the first time, use NPM Install in CMD to install the needed packages.
 // Then run node hellodiscord.js
