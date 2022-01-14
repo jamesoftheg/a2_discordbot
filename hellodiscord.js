@@ -39,4 +39,5 @@ client.on('messageCreate', async message => {
 })
 
 // logs in the bot to the channel
-client.login("ODk3NTg0MjU4Mzc2NDIxNDA3.YWXyew.VuKp2a9_a27jp6hre-KUEVr3IaE");
+// REQUIRES KEY
+client.login();
